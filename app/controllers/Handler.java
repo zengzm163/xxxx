@@ -14,6 +14,7 @@ public class Handler extends Controller {
 	
 	@Before
 	public static void onBefore() {
+		 
 		Logger.info("@Before run");
 	}
 	
